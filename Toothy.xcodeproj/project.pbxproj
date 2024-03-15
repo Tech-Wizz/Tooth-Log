@@ -14,6 +14,10 @@
 		7F23C3D42BA29975009ABB22 /* ToothyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3D32BA29975009ABB22 /* ToothyTests.swift */; };
 		7F23C3DE2BA29975009ABB22 /* ToothyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3DD2BA29975009ABB22 /* ToothyUITests.swift */; };
 		7F23C3E02BA29975009ABB22 /* ToothyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */; };
+		7F23C4332BA4A7FB009ABB22 /* BrushingTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */; };
+		7F23C4352BA4A8A1009ABB22 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */; };
+		7F23C4372BA4A8B3009ABB22 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */; };
+		7F23C4392BA4A8CA009ABB22 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		7F23C3DD2BA29975009ABB22 /* ToothyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyUITests.swift; sourceTree = "<group>"; };
 		7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7F23C3EC2BA36026009ABB22 /* Toothy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toothy.entitlements; sourceTree = "<group>"; };
+		7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushingTimerModel.swift; sourceTree = "<group>"; };
+		7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		7F23C43C2BA4D054009ABB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +104,12 @@
 		7F23C3C12BA29973009ABB22 /* Toothy */ = {
 			isa = PBXGroup;
 			children = (
+				7F23C43C2BA4D054009ABB22 /* Info.plist */,
+				7F23C42F2BA4A6E9009ABB22 /* Model */,
+				7F23C4302BA4A6F1009ABB22 /* View */,
+				7F23C4312BA4A6FE009ABB22 /* Controller */,
 				7F23C3EC2BA36026009ABB22 /* Toothy.entitlements */,
 				7F23C3C22BA29973009ABB22 /* ToothyApp.swift */,
-				7F23C3C42BA29973009ABB22 /* ContentView.swift */,
 				7F23C3C62BA29975009ABB22 /* Assets.xcassets */,
 				7F23C3C82BA29975009ABB22 /* Preview Content */,
 			);
@@ -127,6 +139,32 @@
 				7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */,
 			);
 			path = ToothyUITests;
+			sourceTree = "<group>";
+		};
+		7F23C42F2BA4A6E9009ABB22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F23C4302BA4A6F1009ABB22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */,
+				7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */,
+				7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F23C4312BA4A6FE009ABB22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3C42BA29973009ABB22 /* ContentView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F23C4392BA4A8CA009ABB22 /* SettingScreen.swift in Sources */,
+				7F23C4332BA4A7FB009ABB22 /* BrushingTimerModel.swift in Sources */,
 				7F23C3C52BA29973009ABB22 /* ContentView.swift in Sources */,
+				7F23C4352BA4A8A1009ABB22 /* ProgressBar.swift in Sources */,
 				7F23C3C32BA29973009ABB22 /* ToothyApp.swift in Sources */,
+				7F23C4372BA4A8B3009ABB22 /* TimePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,12 +464,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Toothy/Toothy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Toothy/Preview Content\"";
 				DEVELOPMENT_TEAM = 56HSAHRD97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toothy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to update you Teethbrushing for you!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We want to update you Teethbrushing for you!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +486,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.Toothy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +499,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Toothy/Toothy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Toothy/Preview Content\"";
 				DEVELOPMENT_TEAM = 56HSAHRD97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toothy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to update you Teethbrushing for you!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We want to update you Teethbrushing for you!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +521,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.Toothy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
