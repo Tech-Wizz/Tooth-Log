@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F23C3C32BA29973009ABB22 /* ToothyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3C22BA29973009ABB22 /* ToothyApp.swift */; };
+		7F23C3C52BA29973009ABB22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3C42BA29973009ABB22 /* ContentView.swift */; };
+		7F23C3C72BA29975009ABB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F23C3C62BA29975009ABB22 /* Assets.xcassets */; };
+		7F23C3CA2BA29975009ABB22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F23C3C92BA29975009ABB22 /* Preview Assets.xcassets */; };
+		7F23C3D42BA29975009ABB22 /* ToothyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3D32BA29975009ABB22 /* ToothyTests.swift */; };
+		7F23C3DE2BA29975009ABB22 /* ToothyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3DD2BA29975009ABB22 /* ToothyUITests.swift */; };
+		7F23C3E02BA29975009ABB22 /* ToothyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */; };
+		7F23C4332BA4A7FB009ABB22 /* BrushingTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */; };
+		7F23C4352BA4A8A1009ABB22 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */; };
+		7F23C4372BA4A8B3009ABB22 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */; };
+		7F23C4392BA4A8CA009ABB22 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F23C3D02BA29975009ABB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F23C3B72BA29973009ABB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F23C3BE2BA29973009ABB22;
+			remoteInfo = Toothy;
+		};
+		7F23C3DA2BA29975009ABB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F23C3B72BA29973009ABB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F23C3BE2BA29973009ABB22;
+			remoteInfo = Toothy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F23C3BF2BA29973009ABB22 /* Tooth Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tooth Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F23C3C22BA29973009ABB22 /* ToothyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyApp.swift; sourceTree = "<group>"; };
+		7F23C3C42BA29973009ABB22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F23C3C62BA29975009ABB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F23C3C92BA29975009ABB22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F23C3CF2BA29975009ABB22 /* Tooth LogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tooth LogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F23C3D32BA29975009ABB22 /* ToothyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyTests.swift; sourceTree = "<group>"; };
+		7F23C3D92BA29975009ABB22 /* Tooth LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tooth LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F23C3DD2BA29975009ABB22 /* ToothyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyUITests.swift; sourceTree = "<group>"; };
+		7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F23C3EC2BA36026009ABB22 /* Toothy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toothy.entitlements; sourceTree = "<group>"; };
+		7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushingTimerModel.swift; sourceTree = "<group>"; };
+		7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		7F23C43C2BA4D054009ABB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F23C3BC2BA29973009ABB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3CC2BA29975009ABB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3D62BA29975009ABB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F23C3B62BA29973009ABB22 = {
+			isa = PBXGroup;
+			children = (
+				7F23C3C12BA29973009ABB22 /* Toothy */,
+				7F23C3D22BA29975009ABB22 /* ToothyTests */,
+				7F23C3DC2BA29975009ABB22 /* ToothyUITests */,
+				7F23C3C02BA29973009ABB22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F23C3C02BA29973009ABB22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3BF2BA29973009ABB22 /* Tooth Log.app */,
+				7F23C3CF2BA29975009ABB22 /* Tooth LogTests.xctest */,
+				7F23C3D92BA29975009ABB22 /* Tooth LogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F23C3C12BA29973009ABB22 /* Toothy */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C43C2BA4D054009ABB22 /* Info.plist */,
+				7F23C42F2BA4A6E9009ABB22 /* Model */,
+				7F23C4302BA4A6F1009ABB22 /* View */,
+				7F23C4312BA4A6FE009ABB22 /* Controller */,
+				7F23C3EC2BA36026009ABB22 /* Toothy.entitlements */,
+				7F23C3C22BA29973009ABB22 /* ToothyApp.swift */,
+				7F23C3C62BA29975009ABB22 /* Assets.xcassets */,
+				7F23C3C82BA29975009ABB22 /* Preview Content */,
+			);
+			path = Toothy;
+			sourceTree = "<group>";
+		};
+		7F23C3C82BA29975009ABB22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3C92BA29975009ABB22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F23C3D22BA29975009ABB22 /* ToothyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3D32BA29975009ABB22 /* ToothyTests.swift */,
+			);
+			path = ToothyTests;
+			sourceTree = "<group>";
+		};
+		7F23C3DC2BA29975009ABB22 /* ToothyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3DD2BA29975009ABB22 /* ToothyUITests.swift */,
+				7F23C3DF2BA29975009ABB22 /* ToothyUITestsLaunchTests.swift */,
+			);
+			path = ToothyUITests;
+			sourceTree = "<group>";
+		};
+		7F23C42F2BA4A6E9009ABB22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C4322BA4A7FB009ABB22 /* BrushingTimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F23C4302BA4A6F1009ABB22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C4342BA4A8A1009ABB22 /* ProgressBar.swift */,
+				7F23C4362BA4A8B3009ABB22 /* TimePicker.swift */,
+				7F23C4382BA4A8CA009ABB22 /* SettingScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F23C4312BA4A6FE009ABB22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F23C3C42BA29973009ABB22 /* ContentView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F23C3BE2BA29973009ABB22 /* Tooth Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F23C3E32BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth Log" */;
+			buildPhases = (
+				7F23C3BB2BA29973009ABB22 /* Sources */,
+				7F23C3BC2BA29973009ABB22 /* Frameworks */,
+				7F23C3BD2BA29973009ABB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tooth Log";
+			productName = Toothy;
+			productReference = 7F23C3BF2BA29973009ABB22 /* Tooth Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F23C3CE2BA29975009ABB22 /* Tooth LogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F23C3E62BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth LogTests" */;
+			buildPhases = (
+				7F23C3CB2BA29975009ABB22 /* Sources */,
+				7F23C3CC2BA29975009ABB22 /* Frameworks */,
+				7F23C3CD2BA29975009ABB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F23C3D12BA29975009ABB22 /* PBXTargetDependency */,
+			);
+			name = "Tooth LogTests";
+			productName = ToothyTests;
+			productReference = 7F23C3CF2BA29975009ABB22 /* Tooth LogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F23C3D82BA29975009ABB22 /* Tooth LogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F23C3E92BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth LogUITests" */;
+			buildPhases = (
+				7F23C3D52BA29975009ABB22 /* Sources */,
+				7F23C3D62BA29975009ABB22 /* Frameworks */,
+				7F23C3D72BA29975009ABB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F23C3DB2BA29975009ABB22 /* PBXTargetDependency */,
+			);
+			name = "Tooth LogUITests";
+			productName = ToothyUITests;
+			productReference = 7F23C3D92BA29975009ABB22 /* Tooth LogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F23C3B72BA29973009ABB22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7F23C3BE2BA29973009ABB22 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7F23C3CE2BA29975009ABB22 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7F23C3BE2BA29973009ABB22;
+					};
+					7F23C3D82BA29975009ABB22 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7F23C3BE2BA29973009ABB22;
+					};
+				};
+			};
+			buildConfigurationList = 7F23C3BA2BA29973009ABB22 /* Build configuration list for PBXProject "Tooth Log" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F23C3B62BA29973009ABB22;
+			productRefGroup = 7F23C3C02BA29973009ABB22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F23C3BE2BA29973009ABB22 /* Tooth Log */,
+				7F23C3CE2BA29975009ABB22 /* Tooth LogTests */,
+				7F23C3D82BA29975009ABB22 /* Tooth LogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F23C3BD2BA29973009ABB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F23C3CA2BA29975009ABB22 /* Preview Assets.xcassets in Resources */,
+				7F23C3C72BA29975009ABB22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3CD2BA29975009ABB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3D72BA29975009ABB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F23C3BB2BA29973009ABB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F23C4392BA4A8CA009ABB22 /* SettingScreen.swift in Sources */,
+				7F23C4332BA4A7FB009ABB22 /* BrushingTimerModel.swift in Sources */,
+				7F23C3C52BA29973009ABB22 /* ContentView.swift in Sources */,
+				7F23C4352BA4A8A1009ABB22 /* ProgressBar.swift in Sources */,
+				7F23C3C32BA29973009ABB22 /* ToothyApp.swift in Sources */,
+				7F23C4372BA4A8B3009ABB22 /* TimePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3CB2BA29975009ABB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F23C3D42BA29975009ABB22 /* ToothyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F23C3D52BA29975009ABB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F23C3DE2BA29975009ABB22 /* ToothyUITests.swift in Sources */,
+				7F23C3E02BA29975009ABB22 /* ToothyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F23C3D12BA29975009ABB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F23C3BE2BA29973009ABB22 /* Tooth Log */;
+			targetProxy = 7F23C3D02BA29975009ABB22 /* PBXContainerItemProxy */;
+		};
+		7F23C3DB2BA29975009ABB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F23C3BE2BA29973009ABB22 /* Tooth Log */;
+			targetProxy = 7F23C3DA2BA29975009ABB22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F23C3E12BA29975009ABB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F23C3E22BA29975009ABB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F23C3E42BA29975009ABB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Toothy/Toothy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toothy/Preview Content\"";
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toothy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to log you toohbrushing for you!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We do not want to overwrite your data!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.Toothy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F23C3E52BA29975009ABB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Toothy/Toothy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Toothy/Preview Content\"";
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toothy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to log you toohbrushing for you!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We do not want to overwrite your data!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.Toothy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F23C3E72BA29975009ABB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.ToothyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tooth Log.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tooth Log";
+			};
+			name = Debug;
+		};
+		7F23C3E82BA29975009ABB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.ToothyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tooth Log.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tooth Log";
+			};
+			name = Release;
+		};
+		7F23C3EA2BA29975009ABB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.ToothyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toothy;
+			};
+			name = Debug;
+		};
+		7F23C3EB2BA29975009ABB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.ToothyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Toothy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F23C3BA2BA29973009ABB22 /* Build configuration list for PBXProject "Tooth Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F23C3E12BA29975009ABB22 /* Debug */,
+				7F23C3E22BA29975009ABB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F23C3E32BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F23C3E42BA29975009ABB22 /* Debug */,
+				7F23C3E52BA29975009ABB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F23C3E62BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth LogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F23C3E72BA29975009ABB22 /* Debug */,
+				7F23C3E82BA29975009ABB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F23C3E92BA29975009ABB22 /* Build configuration list for PBXNativeTarget "Tooth LogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F23C3EA2BA29975009ABB22 /* Debug */,
+				7F23C3EB2BA29975009ABB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F23C3B72BA29973009ABB22 /* Project object */;
+}

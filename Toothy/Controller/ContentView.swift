@@ -76,6 +76,7 @@ struct ContentView: View {
                     showLogTimeAlert = true
                 }
             }
+            
             .alert(isPresented: $showLogTimeAlert) {
                 Alert(
                     title: Text("Log Brushing Time"),
@@ -103,6 +104,7 @@ struct ContentView: View {
                 requestAuthorization()
             }
         }
+        
     }
 
     func timeString(time: Int) -> String {

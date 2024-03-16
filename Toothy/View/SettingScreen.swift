@@ -8,12 +8,22 @@
 import SwiftUI
 
 struct SettingsScreen: View {
+    @AppStorage("teethBrushingPermission") var teethBrushingPermission = true
+    @AppStorage("otherTeethBrushingPermission") var otherTeethBrushingPermission = true
+
     var body: some View {
-        Toggle(isOn: .constant(true)) {
-            Text("Teeth Brushing Apple Health")
+        VStack {
+            Toggle(isOn: $teethBrushingPermission) {
+                Text("Teeth Brushing Apple Health")
+            }
+            .toggleStyle(SwitchToggleStyle(tint: .red))
+            .padding()
+
+            Toggle(isOn: $otherTeethBrushingPermission) {
+                Text("Other Teeth Brushing Option")
+            }
+            .toggleStyle(SwitchToggleStyle(tint: .red))
+            .padding()
         }
-        .toggleStyle(SwitchToggleStyle(tint: .red))
-        .padding()
     }
 }
-
